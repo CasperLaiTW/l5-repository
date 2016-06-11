@@ -214,6 +214,9 @@ abstract class Generator
             case ('managers' === $class):
                 $path = config('repository.generator.paths.managers', 'Services');
                 break;
+            case ('criteria' === $class):
+                $path = config('repository.generator.paths.criteria', 'Criteria');
+                break;
             default:
                 $path = '';
         }

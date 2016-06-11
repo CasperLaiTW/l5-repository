@@ -231,6 +231,7 @@ return [
             'controllers'  => 'Http/Controllers',
             'provider'     => 'RepositoryServiceProvider',
             'managers'      => 'Services',
+            'criteria'     => 'Criteria',
         ],
         'stubsOverridePath' => app_path(),
     ]
